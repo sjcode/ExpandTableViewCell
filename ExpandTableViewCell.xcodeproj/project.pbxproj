@@ -12,6 +12,8 @@
 		AAD7A9751E344F070016DC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD7A9731E344F070016DC45 /* Main.storyboard */; };
 		AAD7A9771E344F070016DC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD7A9761E344F070016DC45 /* Assets.xcassets */; };
 		AAD7A97A1E344F070016DC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD7A9781E344F070016DC45 /* LaunchScreen.storyboard */; };
+		AAD7A9821E3490760016DC45 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7A9811E3490760016DC45 /* FeedTableViewCell.swift */; };
+		AAD7A9841E349E9D0016DC45 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7A9831E349E9D0016DC45 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AAD7A9761E344F070016DC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAD7A9791E344F070016DC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAD7A97B1E344F070016DC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD7A9811E3490760016DC45 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		AAD7A9831E349E9D0016DC45 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				AAD7A9761E344F070016DC45 /* Assets.xcassets */,
 				AAD7A9781E344F070016DC45 /* LaunchScreen.storyboard */,
 				AAD7A97B1E344F070016DC45 /* Info.plist */,
+				AAD7A9811E3490760016DC45 /* FeedTableViewCell.swift */,
+				AAD7A9831E349E9D0016DC45 /* String+Extension.swift */,
 			);
 			path = ExpandTableViewCell;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAD7A9721E344F070016DC45 /* ViewController.swift in Sources */,
+				AAD7A9821E3490760016DC45 /* FeedTableViewCell.swift in Sources */,
 				AAD7A9701E344F070016DC45 /* AppDelegate.swift in Sources */,
+				AAD7A9841E349E9D0016DC45 /* String+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
